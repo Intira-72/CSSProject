@@ -1,0 +1,42 @@
+/* * {
+    border: 1px solid red;
+} */
+
+/* element selector */
+html {
+    font-size: 22px;
+}
+
+main {
+    font-family: monospace;
+}
+
+p {
+    color: blueviolet;
+}
+
+button, input, textarea, select {
+    font: inherit;
+}
+
+/* class selector */
+.gray {
+    color: gray;
+}
+
+/* id selector */
+#second {
+    font-style: italic;
+}
+
+/* group selector */
+h1, h2 {
+    color: blue;
+}
+
+/* neted selector */
+/* select span inside p tag  */
+p span {
+    text-transform: uppercase;
+    background-color: gold;
+}
